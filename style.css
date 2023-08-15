@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('bg-large.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow-x: hidden;
+    margin-left: 20px;
+}
+
+#main-head {
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin-top: 20px;
+    color: #ffff;
+    text-shadow: 3px 5px 5px black;
+}
+
+th {
+    color: #fff;
+    text-shadow: 2px 5px 5px black;
+    text-transform: uppercase;
+    font-family: sans-serif;
+
+}
+
+button {
+    width: 100px;
+    padding: 3px;
+    background-color: blue;
+    color: #ffff;
+    box-shadow: 3px 5px 5px black;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.countdown p {
+    color: #ffff;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    text-align: center;
+    text-shadow: 1px 3px 2px black;
+}
+
+.time {
+    background-color: black;
+    color: #ffff;
+    font-size: 100px;
+    width: 150px;
+    margin: 0 10px;
+    text-align: center;
+    font-family: sans-serif;
+    box-shadow: 2px 5px 5px black;
+}
+
+@media (max-width:420px) {
+    body {
+        background-image: url('bg.jpg');
+        background-size: cover;
+        object-fit: cover;
+        overflow-x: hidden;
+        margin-right: 0;
+    }
+
+    #main-head {
+        text-align: center;
+        font-size: 30px;
+        text-transform: uppercase;
+        font-family: sans-serif;
+        margin-top: 20px;
+        color: #ffff;
+        text-shadow: 3px 5px 5px black;
+    }
+
+    table {
+        margin-top: 100px;
+    }
+
+    th {
+        font-size: 20px;
+    }
+
+    #date {
+        width: 180px;
+        height: 40px;
+        margin: 10px;
+    }
+
+    #time {
+        width: 180px;
+        height: 40px;
+        margin: 10px;
+    }
+
+    button {
+        width: 100px;
+        padding: 3px;
+        background-color: blue;
+        color: #ffff;
+        font-size: 15px;
+        margin: 10px;
+        box-shadow: 3px 5px 5px black;
+        margin-top: 100px;
+    }
+
+    .countdown p {
+        font-size: 15px;
+    }
+
+    .time {
+        background-color: black;
+        color: #ffff;
+        font-size: 20px;
+        width: 80px;
+        margin: 0 10px;
+        text-align: center;
+        font-family: sans-serif;
+        box-shadow: 2px 5px 5px black;
+    }
+}
